@@ -1,0 +1,36 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/data-tab-tests",
+      "handler": "data-tab-test.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/data-tab-tests/:id",
+      "handler": "data-tab-test.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/data-tab-tests",
+      "handler": "data-tab-test.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/data-tab-tests/pay",
+      "handler": "data-tab-test.setUpInstamojo",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

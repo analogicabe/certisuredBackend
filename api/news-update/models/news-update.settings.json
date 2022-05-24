@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_update_s",
+  "info": {
+    "name": "NewsUpdate ",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "newsupdate": {
+      "type": "component",
+      "repeatable": true,
+      "component": "newsupdate.newsupdate"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "training_main_pages",
+  "info": {
+    "name": "training_mainPage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "trainingOnEmergingTechnologies": {
+      "type": "component",
+      "repeatable": false,
+      "component": "consulting.consulting-mainpage"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

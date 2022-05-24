@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_session_bootcamp_sessions",
+  "info": {
+    "name": "bootcamp_session",
+    "icon": "battery-full",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "session": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

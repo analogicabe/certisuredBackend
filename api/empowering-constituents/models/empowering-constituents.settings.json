@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "empowering_constituents",
+  "info": {
+    "name": "empowering constituents"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "shortDescrption": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/summer-schools",
+      "handler": "summer-school.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/summer-schools/count",
+      "handler": "summer-school.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/summer-schools/:id",
+      "handler": "summer-school.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/summer-schools",
+      "handler": "summer-school.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/summer-schools/:id",
+      "handler": "summer-school.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/summer-schools/:id",
+      "handler": "summer-school.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

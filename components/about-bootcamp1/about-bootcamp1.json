@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_about_bootcamp1_about_bootcamp1s",
+  "info": {
+    "name": "about_bootcamp1",
+    "icon": "arrow-alt-circle-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "span": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "about_bootcamp_media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "about_bootcamp_desc": {
+      "type": "richtext"
+    },
+    "about_bootcamp_events1": {
+      "type": "component",
+      "repeatable": true,
+      "component": "bootcamp-events1.about-bootcamp-events1"
+    }
+  }
+}

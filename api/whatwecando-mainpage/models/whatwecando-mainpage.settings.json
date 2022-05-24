@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "whatwecando_mainpages",
+  "info": {
+    "name": "Whatwecando_mainpage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "whatwecando": {
+      "type": "component",
+      "repeatable": true,
+      "component": "consulting.consulting-mainpage"
+    }
+  }
+}

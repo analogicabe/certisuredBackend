@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_technology_stack_media_technology_stack_medias",
+  "info": {
+    "name": "technologyStack_media",
+    "icon": "angle-up"
+  },
+  "options": {},
+  "attributes": {
+    "technologyStack_media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

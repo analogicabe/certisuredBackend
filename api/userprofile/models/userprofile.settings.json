@@ -1,0 +1,88 @@
+{
+  "kind": "collectionType",
+  "collectionName": "userprofiles",
+  "info": {
+    "name": "userprofile",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "topicDetails": {
+      "type": "json"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "course_id": {
+      "type": "string"
+    },
+    "userFirstName": {
+      "type": "string"
+    },
+    "userLastName": {
+      "type": "string"
+    },
+    "userPhoto": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "userInfo": {
+      "type": "richtext"
+    },
+    "userBackgroundPhoto": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "userNotes": {
+      "type": "json"
+    },
+    "userLastWatched": {
+      "type": "json"
+    },
+    "linkedin_url": {
+      "type": "string"
+    },
+    "resume_google_drive_url": {
+      "type": "string"
+    },
+    "user_skills": {
+      "type": "json"
+    },
+    "user_college_name": {
+      "type": "string"
+    },
+    "user_degree": {
+      "type": "string"
+    },
+    "company_name": {
+      "type": "string"
+    },
+    "company_year": {
+      "type": "string"
+    },
+    "company_desc": {
+      "type": "string"
+    }
+  }
+}

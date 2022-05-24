@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/home-trainings",
+      "handler": "home-training.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/home-trainings/count",
+      "handler": "home-training.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/home-trainings/:id",
+      "handler": "home-training.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/home-trainings",
+      "handler": "home-training.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/home-trainings/:id",
+      "handler": "home-training.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/home-trainings/:id",
+      "handler": "home-training.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

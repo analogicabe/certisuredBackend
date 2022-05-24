@@ -1,0 +1,94 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ml_demo_classes",
+  "info": {
+    "name": "demo-class",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.banner"
+    },
+    "instructor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "consulting.consulting-mainpage"
+    },
+    "free_demo_class_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "instructor_video": {
+      "type": "component",
+      "repeatable": false,
+      "component": "instructor.instructor-video"
+    },
+    "review_video": {
+      "type": "component",
+      "repeatable": false,
+      "component": "review-video.reviews"
+    },
+    "slug": {
+      "type": "string",
+      "required": true
+    },
+    "demo_class_buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "button.button-label-with-descrption"
+    },
+    "demo_class_day": {
+      "type": "component",
+      "repeatable": true,
+      "component": "democlass.demo-class-days"
+    },
+    "register_now_democlass": {
+      "type": "component",
+      "repeatable": false,
+      "component": "register-now.register-now-democlass"
+    },
+    "review_images": {
+      "type": "component",
+      "repeatable": false,
+      "component": "review.review-image-title"
+    },
+    "Register_link_button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "course-button.course-button"
+    },
+    "event_schedule": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tabs.tab-section"
+    },
+    "instamojoTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tabs.tab-section"
+    },
+    "paypalTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tabs.tab-section"
+    },
+    "allreview": {
+      "model": "allreviews",
+      "via": "demo_classes"
+    }
+  }
+}

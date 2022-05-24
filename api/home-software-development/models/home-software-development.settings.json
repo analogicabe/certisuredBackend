@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_software_developments",
+  "info": {
+    "name": "Home_SoftwareDevelopment",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "LongDescrption": {
+      "type": "richtext"
+    },
+    "SoftwareDevelopment_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "shortDescrption": {
+      "type": "richtext"
+    }
+  }
+}

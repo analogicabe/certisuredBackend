@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_tags_blogs_tags",
+  "info": {
+    "name": "blogs_tags",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "tags_title": {
+      "type": "string"
+    },
+    "blogs": {
+      "collection": "blog"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "collectionName": "components_whoweare_whoweares",
+  "info": {
+    "name": "whoweare",
+    "icon": "arrows-alt-v"
+  },
+  "options": {},
+  "attributes": {
+    "main_title": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "descrption": {
+      "type": "richtext"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "course-button.course-button"
+    },
+    "top_left_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "bottom_right_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "bottom_left_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

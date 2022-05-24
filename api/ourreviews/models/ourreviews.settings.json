@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ourreviews",
+  "info": {
+    "name": "Ourreviews",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "ourreview": {
+      "type": "component",
+      "repeatable": true,
+      "component": "consulting.consulting-mainpage"
+    }
+  }
+}

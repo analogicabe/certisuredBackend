@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "course_demo_lists",
+  "info": {
+    "name": "add-paid-course-description",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "course": {
+      "via": "courses_demos",
+      "autoPopulate": false,
+      "model": "course"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "type": {
+      "type": "string"
+    },
+    "popular_course": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

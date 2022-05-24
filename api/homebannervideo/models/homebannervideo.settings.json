@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homebannervideos",
+  "info": {
+    "name": "home_Whoweare",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "shortDescrption": {
+      "type": "string"
+    },
+    "main_Descrption": {
+      "type": "richtext"
+    }
+  }
+}

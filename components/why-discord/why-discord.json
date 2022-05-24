@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_why_discord_why_discords",
+  "info": {
+    "name": "why_discord",
+    "icon": "arrow-up"
+  },
+  "options": {},
+  "attributes": {
+    "span": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "video_link": {
+      "type": "string"
+    },
+    "why_discord_description": {
+      "type": "richtext"
+    }
+  }
+}

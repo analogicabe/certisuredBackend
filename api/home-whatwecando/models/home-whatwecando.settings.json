@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_whatwecandos",
+  "info": {
+    "name": "Home_whatwecando"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "shortDescrption": {
+      "type": "string"
+    },
+    "LongDescrption": {
+      "type": "richtext"
+    }
+  }
+}

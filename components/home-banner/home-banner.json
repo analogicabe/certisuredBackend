@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_banner_home_banners",
+  "info": {
+    "name": "home_banner",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "center_message_heading": {
+      "type": "text"
+    },
+    "center_message_subtopic": {
+      "type": "text"
+    },
+    "banner_image": {
+      "type": "component",
+      "repeatable": true,
+      "component": "technology-stack-media.technology-stack-media"
+    }
+  }
+}

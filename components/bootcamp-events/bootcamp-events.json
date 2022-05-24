@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_bootcamp_events_bootcamp_events",
+  "info": {
+    "name": "bootcamp_events",
+    "icon": "bezier-curve",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "span": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "video_link": {
+      "type": "string"
+    },
+    "event_date_time": {
+      "type": "component",
+      "repeatable": false,
+      "component": "date-time-event.event-date-time"
+    },
+    "show_or_hide": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

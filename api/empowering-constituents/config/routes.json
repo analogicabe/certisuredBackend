@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/empowering-constituents",
+      "handler": "empowering-constituents.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/empowering-constituents/count",
+      "handler": "empowering-constituents.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/empowering-constituents/:id",
+      "handler": "empowering-constituents.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/empowering-constituents",
+      "handler": "empowering-constituents.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/empowering-constituents/:id",
+      "handler": "empowering-constituents.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/empowering-constituents/:id",
+      "handler": "empowering-constituents.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

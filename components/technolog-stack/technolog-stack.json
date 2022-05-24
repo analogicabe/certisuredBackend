@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_technolog_stack_technolog_stacks",
+  "info": {
+    "name": "technologStack",
+    "icon": "angry"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "technologyStack_media": {
+      "type": "component",
+      "repeatable": true,
+      "component": "technology-stack-media.technology-stack-media"
+    }
+  }
+}

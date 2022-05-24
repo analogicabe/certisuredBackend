@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_frequently_asked_bootcamp_frequently_asked_questions",
+  "info": {
+    "name": "bootcamp_frequently_asked_question",
+    "icon": "bell"
+  },
+  "options": {},
+  "attributes": {
+    "span": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "main_heading": {
+      "type": "string"
+    },
+    "frequenty_asked_question": {
+      "type": "component",
+      "repeatable": true,
+      "component": "faq.frequenty-asked-question"
+    }
+  }
+}

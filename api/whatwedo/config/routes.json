@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/whatwedo",
+      "handler": "whatwedo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/whatwedo",
+      "handler": "whatwedo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/whatwedo",
+      "handler": "whatwedo.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

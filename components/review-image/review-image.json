@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_review_image_review_images",
+  "info": {
+    "name": "review_image",
+    "icon": "backspace",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "descrption": {
+      "type": "richtext"
+    },
+    "review_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "slug": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_pricing_pricing_and_payments",
+  "info": {
+    "name": "pricing_and_payment",
+    "icon": "money-bill-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "update_details_link": {
+      "type": "string"
+    },
+    "choose_your_subject": {
+      "type": "component",
+      "repeatable": true,
+      "component": "summer-subject.choose-your-subject"
+    },
+    "main_title": {
+      "type": "string"
+    },
+    "update_details_description": {
+      "type": "string"
+    },
+    "choose_pricing": {
+      "type": "component",
+      "repeatable": true,
+      "component": "choose-pricing.choose-pricing"
+    },
+    "show_or_hide": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

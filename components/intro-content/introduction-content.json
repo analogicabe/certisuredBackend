@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_intro_content_introduction_contents",
+  "info": {
+    "name": "introduction_content",
+    "icon": "biohazard"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

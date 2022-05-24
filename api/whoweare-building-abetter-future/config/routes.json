@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/whoweare-building-abetter-futures",
+      "handler": "whoweare-building-abetter-future.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/whoweare-building-abetter-futures/count",
+      "handler": "whoweare-building-abetter-future.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/whoweare-building-abetter-futures/:id",
+      "handler": "whoweare-building-abetter-future.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/whoweare-building-abetter-futures",
+      "handler": "whoweare-building-abetter-future.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/whoweare-building-abetter-futures/:id",
+      "handler": "whoweare-building-abetter-future.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/whoweare-building-abetter-futures/:id",
+      "handler": "whoweare-building-abetter-future.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

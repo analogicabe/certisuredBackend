@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_course_button_course_buttons",
+  "info": {
+    "name": "Course_button",
+    "icon": "angle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "button_label": {
+      "type": "string",
+      "default": "Download the brouchre"
+    },
+    "slug_link": {
+      "type": "string",
+      "default": "https://certisured.com"
+    }
+  }
+}

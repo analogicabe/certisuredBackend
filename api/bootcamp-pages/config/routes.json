@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/bootcamp-pages",
+      "handler": "bootcamp-pages.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bootcamp-pages/count",
+      "handler": "bootcamp-pages.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bootcamp-pages/:id",
+      "handler": "bootcamp-pages.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/bootcamp-pages",
+      "handler": "bootcamp-pages.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/bootcamp-pages/:id",
+      "handler": "bootcamp-pages.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/bootcamp-pages/:id",
+      "handler": "bootcamp-pages.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

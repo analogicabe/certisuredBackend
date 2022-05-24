@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/home-whatwecandos",
+      "handler": "home-whatwecando.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/home-whatwecandos/count",
+      "handler": "home-whatwecando.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/home-whatwecandos/:id",
+      "handler": "home-whatwecando.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/home-whatwecandos",
+      "handler": "home-whatwecando.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/home-whatwecandos/:id",
+      "handler": "home-whatwecando.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/home-whatwecandos/:id",
+      "handler": "home-whatwecando.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

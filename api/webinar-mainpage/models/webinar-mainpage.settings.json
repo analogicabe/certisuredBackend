@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "webinar_mainpages",
+  "info": {
+    "name": "Webinar_Mainpage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.banner"
+    },
+    "emerging": {
+      "type": "component",
+      "repeatable": false,
+      "component": "consulting.consulting-mainpage"
+    },
+    "allwebinar_upcoming_past": {
+      "type": "component",
+      "repeatable": true,
+      "component": "upcoming-webinar.upcoming-webinar"
+    },
+    "workshop": {
+      "type": "component",
+      "repeatable": false,
+      "component": "consulting.consulting-mainpage"
+    }
+  }
+}

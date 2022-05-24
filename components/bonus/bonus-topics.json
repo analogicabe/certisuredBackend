@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_bonus_bonus_topics",
+  "info": {
+    "name": "BonusTopics",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "bonus_topics": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "whoweare_building_abetter_futures",
+  "info": {
+    "name": "Whoweare_buildingAbetterFuture"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "shortDescrption": {
+      "type": "richtext"
+    },
+    "buildingAbetterFuture_media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_register_now_register_now_democlasses",
+  "info": {
+    "name": "register_now_democlass",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "dateAndTime": {
+      "type": "datetime"
+    }
+  }
+}

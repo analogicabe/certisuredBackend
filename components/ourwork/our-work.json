@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ourwork_our_works",
+  "info": {
+    "name": "OurWork",
+    "icon": "ankh"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "work": {
+      "type": "component",
+      "repeatable": true,
+      "component": "review-image.review-image"
+    }
+  }
+}

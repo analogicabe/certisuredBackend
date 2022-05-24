@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_curriculum_summer_school_curricula",
+  "info": {
+    "name": "summerSchool_curriculum",
+    "icon": "assistive-listening-systems",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "curriculum": {
+      "type": "richtext"
+    }
+  }
+}

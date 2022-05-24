@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/whatwecando-mainpages",
+      "handler": "whatwecando-mainpage.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/whatwecando-mainpages/count",
+      "handler": "whatwecando-mainpage.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/whatwecando-mainpages/:id",
+      "handler": "whatwecando-mainpage.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/whatwecando-mainpages",
+      "handler": "whatwecando-mainpage.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/whatwecando-mainpages/:id",
+      "handler": "whatwecando-mainpage.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/whatwecando-mainpages/:id",
+      "handler": "whatwecando-mainpage.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

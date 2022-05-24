@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bootcamps",
+  "info": {
+    "name": "Bootcamps",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "bootcamp": {
+      "type": "component",
+      "repeatable": true,
+      "component": "consulting.consulting-mainpage"
+    }
+  }
+}

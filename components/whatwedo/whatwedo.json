@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_whatwedo_whatwedos",
+  "info": {
+    "name": "whatwedo",
+    "icon": "baseball-ball"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "descrption": {
+      "type": "richtext"
+    },
+    "whatwedo_button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "course-button.course-button"
+    }
+  }
+}

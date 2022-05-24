@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_seo_seos",
+  "info": {
+    "name": "Seo",
+    "icon": "battery-three-quarters",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "short_description": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "component",
+      "repeatable": true,
+      "component": "keywords.keywords"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

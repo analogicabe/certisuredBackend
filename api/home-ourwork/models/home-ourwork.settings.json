@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_ourworks",
+  "info": {
+    "name": "Home_trendingCertifications",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "trending_certification": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ourwork.our-work"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_democlass_demo_class_days",
+  "info": {
+    "name": "demo_class_days",
+    "icon": "adjust",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "free_demo_class": {
+      "type": "component",
+      "repeatable": true,
+      "component": "evolutionof-ai.what-is-covered-in-the-free-demo-class"
+    },
+    "day": {
+      "type": "string"
+    },
+    "panelNumber": {
+      "type": "integer"
+    },
+    "main_heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "title.title"
+    }
+  }
+}

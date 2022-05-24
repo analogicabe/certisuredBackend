@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/course-demo-lists",
+      "handler": "course-demo-list.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/course-demo-lists/count",
+      "handler": "course-demo-list.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/course-demo-lists/:id",
+      "handler": "course-demo-list.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/course-demo-lists",
+      "handler": "course-demo-list.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/course-demo-lists/:id",
+      "handler": "course-demo-list.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/course-demo-lists/:id",
+      "handler": "course-demo-list.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

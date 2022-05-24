@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "assessments",
+  "info": {
+    "name": "assessment",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "AllBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "allbanner.all-banner"
+    },
+    "assessmentSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "grid.grid-section"
+    },
+    "getInTouch": {
+      "type": "component",
+      "repeatable": false,
+      "component": "title-and-desc.title-and-desc"
+    }
+  }
+}

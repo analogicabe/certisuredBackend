@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_audio_file_audio_files",
+  "info": {
+    "name": "audio_file",
+    "icon": "blog"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Listen to audio"
+    },
+    "show_or_hide": {
+      "type": "boolean",
+      "default": false
+    },
+    "audio_file": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "audio_file_link": {
+      "type": "string"
+    }
+  }
+}

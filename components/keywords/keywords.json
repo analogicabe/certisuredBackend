@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_keywords_keywords",
+  "info": {
+    "name": "keywords",
+    "icon": "arrow-alt-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

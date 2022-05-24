@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/coming-soon-pages",
+      "handler": "coming-soon-pages.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/coming-soon-pages/count",
+      "handler": "coming-soon-pages.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/coming-soon-pages/:id",
+      "handler": "coming-soon-pages.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/coming-soon-pages",
+      "handler": "coming-soon-pages.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/coming-soon-pages/:id",
+      "handler": "coming-soon-pages.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/coming-soon-pages/:id",
+      "handler": "coming-soon-pages.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

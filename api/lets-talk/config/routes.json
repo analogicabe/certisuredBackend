@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/lets-talks",
+      "handler": "lets-talk.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/lets-talks/count",
+      "handler": "lets-talk.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/lets-talks/:id",
+      "handler": "lets-talk.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/lets-talks",
+      "handler": "lets-talk.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/lets-talks/:id",
+      "handler": "lets-talk.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/lets-talks/:id",
+      "handler": "lets-talk.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "authors",
+  "info": {
+    "name": "author",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "descrption": {
+      "type": "richtext"
+    },
+    "author_image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "course": {
+      "via": "authors",
+      "model": "course"
+    },
+    "free_courses_lms": {
+      "via": "authors",
+      "collection": "free-courses-lms"
+    }
+  }
+}

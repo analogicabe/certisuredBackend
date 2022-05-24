@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_grid_grid_sections",
+  "info": {
+    "name": "GridSection",
+    "icon": "bars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "descrption": {
+      "type": "richtext"
+    },
+    "left_image": {
+      "type": "boolean"
+    },
+    "picture": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "course-button.course-button"
+    }
+  }
+}

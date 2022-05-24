@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lets_talks",
+  "info": {
+    "name": "letsTalk"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/consulting-main-pages",
+      "handler": "consulting-main-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/consulting-main-pages/count",
+      "handler": "consulting-main-page.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/consulting-main-pages/:id",
+      "handler": "consulting-main-page.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/consulting-main-pages",
+      "handler": "consulting-main-page.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/consulting-main-pages/:id",
+      "handler": "consulting-main-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/consulting-main-pages/:id",
+      "handler": "consulting-main-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

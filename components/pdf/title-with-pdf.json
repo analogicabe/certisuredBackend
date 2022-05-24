@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_pdf_title_with_pdfs",
+  "info": {
+    "name": "title_with_pdf",
+    "icon": "book-medical"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "pdf": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

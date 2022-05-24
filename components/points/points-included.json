@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_points_points_includeds",
+  "info": {
+    "name": "points_included",
+    "icon": "award",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

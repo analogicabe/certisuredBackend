@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_technology_topics",
+  "info": {
+    "name": "topics",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "topics": {
+      "type": "string"
+    }
+  }
+}

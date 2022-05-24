@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_allreview_allreiviews",
+  "info": {
+    "name": "allreiview",
+    "icon": "arrow-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "linkedInUrl": {
+      "type": "string"
+    },
+    "picture": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "descrption": {
+      "type": "richtext"
+    },
+    "rating": {
+      "type": "decimal"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "kind": "collectionType",
+  "collectionName": "five_k_pages",
+  "info": {
+    "name": "FiveK_pages",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "FiveKBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "five5banner.five-k-banner"
+    },
+    "introduction_audio": {
+      "type": "component",
+      "repeatable": false,
+      "component": "table-contents.table-contents"
+    },
+    "introduction_content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "intro-content.introduction-content"
+    },
+    "types_of_departments": {
+      "type": "component",
+      "repeatable": false,
+      "component": "five-k-departments.types-of-departments"
+    },
+    "skills_required": {
+      "type": "component",
+      "repeatable": false,
+      "component": "five-k-skills.skills-required"
+    },
+    "salary": {
+      "type": "component",
+      "repeatable": false,
+      "component": "five-k-salary.salary"
+    },
+    "scope": {
+      "type": "component",
+      "repeatable": false,
+      "component": "five-k-skills.skills-required"
+    },
+    "job_roles": {
+      "type": "component",
+      "repeatable": false,
+      "component": "five-k-skills.skills-required"
+    },
+    "demand": {
+      "type": "component",
+      "repeatable": false,
+      "component": "five-k-demand.demand"
+    },
+    "companies": {
+      "type": "component",
+      "repeatable": false,
+      "component": "technolog-stack.technolog-stack"
+    },
+    "placement_assisstance": {
+      "type": "component",
+      "repeatable": false,
+      "component": "five-k-skills.skills-required"
+    },
+    "about_the_course": {
+      "type": "component",
+      "repeatable": false,
+      "component": "five-k-skills.skills-required"
+    },
+    "register_for_demo_class": {
+      "type": "component",
+      "repeatable": false,
+      "component": "five-k-register.register-for-demo-class"
+    },
+    "blogs": {
+      "collection": "blog",
+      "via": "five_k_page"
+    },
+    "video_reviews": {
+      "collection": "video-reviews",
+      "via": "five_k_page"
+    },
+    "allreviews": {
+      "collection": "allreviews",
+      "via": "five_k_page"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "our_courses_homes": {
+      "via": "five_k_page",
+      "collection": "all-trending-certification"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    }
+  }
+}

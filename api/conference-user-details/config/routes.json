@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/conference-user-details",
+      "handler": "conference-user-details.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/conference-user-details/count",
+      "handler": "conference-user-details.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/conference-user-details/:id",
+      "handler": "conference-user-details.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/conference-user-details",
+      "handler": "conference-user-details.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/conference-user-details/payment",
+      "handler": "conference-user-details.setUpStripe",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/conference-user-details/:id",
+      "handler": "conference-user-details.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/conference-user-details/:id",
+      "handler": "conference-user-details.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

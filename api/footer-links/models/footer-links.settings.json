@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footer_links",
+  "info": {
+    "name": "footer_links"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "footer_page_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.footer-link"
+    },
+    "footer_social_icons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.footer-link"
+    }
+  }
+}

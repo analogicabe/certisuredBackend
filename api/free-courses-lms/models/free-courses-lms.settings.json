@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "free_courses_lms",
+  "info": {
+    "name": "coursesLms",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "overview": {
+      "type": "richtext"
+    },
+    "course_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "short_description": {
+      "type": "richtext"
+    },
+    "authors": {
+      "collection": "author",
+      "via": "free_courses_lms",
+      "dominant": true
+    },
+    "rating": {
+      "type": "decimal"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "announcements": {
+      "type": "richtext"
+    },
+    "modules": {
+      "type": "component",
+      "repeatable": true,
+      "component": "course-modules.course-modules"
+    }
+  }
+}

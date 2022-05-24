@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_consulting_consulting_mainpages",
+  "info": {
+    "name": "consulting_mainpage",
+    "icon": "air-freshener",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "consulting_media": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "descrption": {
+      "type": "richtext"
+    },
+    "linkedIn_url": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    }
+  }
+}

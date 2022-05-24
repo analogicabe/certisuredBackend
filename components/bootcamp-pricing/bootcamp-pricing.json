@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_bootcamp_pricing_bootcamp_pricings",
+  "info": {
+    "name": "bootcamp_pricing",
+    "icon": "bullhorn",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "span": {
+      "type": "string",
+      "default": "Course"
+    },
+    "title": {
+      "type": "string",
+      "default": "Pricing & Benefits"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

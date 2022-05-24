@@ -1,0 +1,78 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "name": "home",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "whatwedo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "whatwedo.whatwedo"
+    },
+    "whoarewe": {
+      "type": "component",
+      "repeatable": false,
+      "component": "whoweare.whoweare"
+    },
+    "LatestNews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "newsupdate.newsupdate"
+    },
+    "CallForAction": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button-label-with-descrption"
+    },
+    "whatweare": {
+      "type": "component",
+      "repeatable": false,
+      "component": "whatwearethinking.whatwearethinking"
+    },
+    "whatwearethinking_bottomSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "whatwedo.whatwedo"
+    },
+    "ourwork": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ourwork.our-work"
+    },
+    "whatStudentsSay": {
+      "type": "component",
+      "repeatable": false,
+      "component": "what-students-say.what-students-say"
+    },
+    "technology_stack": {
+      "type": "component",
+      "repeatable": false,
+      "component": "technolog-stack.technolog-stack"
+    },
+    "GridSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "grid.grid-section"
+    },
+    "home_banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-banner.home-banner"
+    },
+    "allreview": {
+      "model": "allreviews"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_technology_technolgy_lists",
+  "info": {
+    "name": "TechnolgyList",
+    "icon": "angle-double-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ListTitle": {
+      "type": "string"
+    },
+    "topics": {
+      "type": "component",
+      "repeatable": true,
+      "component": "technology.topics"
+    }
+  }
+}

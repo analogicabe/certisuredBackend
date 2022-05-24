@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/add-free-demo-course-descriptions",
+      "handler": "add-free-demo-course-description.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/add-free-demo-course-descriptions/count",
+      "handler": "add-free-demo-course-description.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/add-free-demo-course-descriptions/:id",
+      "handler": "add-free-demo-course-description.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/add-free-demo-course-descriptions",
+      "handler": "add-free-demo-course-description.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/add-free-demo-course-descriptions/:id",
+      "handler": "add-free-demo-course-description.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/add-free-demo-course-descriptions/:id",
+      "handler": "add-free-demo-course-description.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "coming_soon_pages",
+  "info": {
+    "name": "coming_soon_pages",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "coming_soon_title": {
+      "type": "string",
+      "default": "Coming Soon"
+    },
+    "span": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "coming_soon_media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "coming_soon_slug": {
+      "type": "string"
+    },
+    "success_message": {
+      "type": "text",
+      "default": "Thank you for submitting the form will let you know by email"
+    }
+  }
+}

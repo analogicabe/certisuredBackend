@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_course_modules_course_sections",
+  "info": {
+    "name": "course_sections",
+    "icon": "book-dead",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section_title": {
+      "type": "string"
+    },
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "course-modules.sections"
+    }
+  }
+}

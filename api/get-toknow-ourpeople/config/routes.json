@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/get-toknow-ourpeople",
+      "handler": "get-toknow-ourpeople.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/get-toknow-ourpeople/count",
+      "handler": "get-toknow-ourpeople.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/get-toknow-ourpeople/:id",
+      "handler": "get-toknow-ourpeople.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/get-toknow-ourpeople",
+      "handler": "get-toknow-ourpeople.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/get-toknow-ourpeople/:id",
+      "handler": "get-toknow-ourpeople.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/get-toknow-ourpeople/:id",
+      "handler": "get-toknow-ourpeople.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

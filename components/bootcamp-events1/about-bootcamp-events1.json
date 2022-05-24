@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_bootcamp_events1_about_bootcamp_events1s",
+  "info": {
+    "name": "about_bootcamp_events1",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

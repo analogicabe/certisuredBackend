@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_footer_footer_links",
+  "info": {
+    "name": "footer_link",
+    "icon": "battery-half"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link_to": {
+      "type": "string"
+    }
+  }
+}

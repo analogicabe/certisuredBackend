@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "whatwedos",
+  "info": {
+    "name": "whatwedo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "tabSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tabs.tab-section"
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "allbanner.all-banner"
+    },
+    "gridSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "grid.grid-section"
+    }
+  }
+}

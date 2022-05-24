@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_highlights_bootcamp_highlights",
+  "info": {
+    "name": "bootcamp_highlights",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "span": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "highlights_desc": {
+      "type": "component",
+      "repeatable": true,
+      "component": "title.title"
+    }
+  }
+}

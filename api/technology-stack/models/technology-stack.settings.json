@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "technology_stacks",
+  "info": {
+    "name": "technologyStack"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "technologyStack_media": {
+      "type": "component",
+      "repeatable": false,
+      "component": "technolog-stack.technolog-stack"
+    },
+    "Training_technologyStack_media": {
+      "type": "component",
+      "repeatable": false,
+      "component": "technolog-stack.technolog-stack"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_faq_frequenty_asked_questions",
+  "info": {
+    "name": "frequenty_asked_question",
+    "icon": "bolt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

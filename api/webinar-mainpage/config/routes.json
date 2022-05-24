@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/webinar-mainpages",
+      "handler": "webinar-mainpage.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/webinar-mainpages/count",
+      "handler": "webinar-mainpage.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/webinar-mainpages/:id",
+      "handler": "webinar-mainpage.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/webinar-mainpages",
+      "handler": "webinar-mainpage.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/webinar-mainpages/:id",
+      "handler": "webinar-mainpage.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/webinar-mainpages/:id",
+      "handler": "webinar-mainpage.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_newsupdate_newsupdates",
+  "info": {
+    "name": "newsupdate",
+    "icon": "arrows-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "topic": {
+      "type": "string"
+    },
+    "news_descrption": {
+      "type": "richtext"
+    },
+    "panel": {
+      "type": "string"
+    },
+    "news_update_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "show_date_and_time": {
+      "type": "boolean",
+      "default": false
+    },
+    "starts_at": {
+      "type": "string",
+      "default": "Starts at 2/2/21 and ends at 3/3/21"
+    },
+    "link_to": {
+      "type": "string",
+      "default": "/"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_discords",
+  "info": {
+    "name": "Home_discord"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "button_label": {
+      "type": "string"
+    },
+    "button_link": {
+      "type": "string"
+    },
+    "popup_message_description": {
+      "type": "richtext"
+    }
+  }
+}

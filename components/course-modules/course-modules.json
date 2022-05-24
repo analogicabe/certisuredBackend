@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_course_modules_course_modules",
+  "info": {
+    "name": "course_modules",
+    "icon": "blind"
+  },
+  "options": {},
+  "attributes": {
+    "module_title": {
+      "type": "string"
+    },
+    "module_estimation_time_for_completion": {
+      "type": "string"
+    },
+    "course_sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "course-modules.course-sections"
+    }
+  }
+}

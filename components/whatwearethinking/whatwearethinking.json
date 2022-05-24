@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_whatwearethinking_whatwearethinkings",
+  "info": {
+    "name": "whatwearethinking",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "whatweare": {
+      "type": "component",
+      "repeatable": true,
+      "component": "whatweare.whatweare"
+    }
+  }
+}

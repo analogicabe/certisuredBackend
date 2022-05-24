@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "software_main_pages",
+  "info": {
+    "name": "Software_mainPage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "software": {
+      "type": "component",
+      "repeatable": true,
+      "component": "consulting.consulting-mainpage"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

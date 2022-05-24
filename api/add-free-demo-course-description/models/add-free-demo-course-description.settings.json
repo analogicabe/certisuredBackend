@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "add_free_demo_course_descriptions",
+  "info": {
+    "name": "add-free-demo-course-description",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "addCourses": {
+      "type": "component",
+      "repeatable": true,
+      "component": "freedemo.freedemo"
+    }
+  }
+}

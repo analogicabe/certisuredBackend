@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_instructor_summer_school_instructors",
+  "info": {
+    "name": "SummerSchool_instructor",
+    "icon": "arrow-left"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "instructor_pic": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "linkedin_url": {
+      "type": "string"
+    }
+  }
+}

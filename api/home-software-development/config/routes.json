@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/home-software-developments",
+      "handler": "home-software-development.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/home-software-developments/count",
+      "handler": "home-software-development.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/home-software-developments/:id",
+      "handler": "home-software-development.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/home-software-developments",
+      "handler": "home-software-development.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/home-software-developments/:id",
+      "handler": "home-software-development.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/home-software-developments/:id",
+      "handler": "home-software-development.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

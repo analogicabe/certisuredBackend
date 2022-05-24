@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_instructor_instructor_videos",
+  "info": {
+    "name": "instructor_video",
+    "icon": "angle-double-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Instructor_video_url": {
+      "type": "string"
+    },
+    "instructor_video_title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "title.title"
+    }
+  }
+}

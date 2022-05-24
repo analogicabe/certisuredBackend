@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_about_instructor_bootcamp_about_instructors",
+  "info": {
+    "name": "bootcamp_about_instructor",
+    "icon": "baby-carriage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "span": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "about_instuctor": {
+      "type": "component",
+      "repeatable": true,
+      "component": "review-image.review-image"
+    }
+  }
+}

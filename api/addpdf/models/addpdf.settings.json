@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "addpdfs",
+  "info": {
+    "name": "addpdf",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title_with_pdf": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pdf.title-with-pdf"
+    },
+    "users": {
+      "plugin": "users-permissions",
+      "collection": "user",
+      "via": "addpdf"
+    }
+  }
+}

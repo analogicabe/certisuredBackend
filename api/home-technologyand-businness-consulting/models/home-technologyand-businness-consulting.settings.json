@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_technologyand_businness_consultings",
+  "info": {
+    "name": "Home_Consulting",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "LongDescrption": {
+      "type": "richtext"
+    },
+    "Consulting_image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "shortDescrption": {
+      "type": "richtext"
+    }
+  }
+}

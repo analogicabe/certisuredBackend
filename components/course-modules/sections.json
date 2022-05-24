@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_course_modules_sections",
+  "info": {
+    "name": "sections",
+    "icon": "blender-phone",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link_to": {
+      "type": "string",
+      "default": "etra resources link"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "video",
+        "quiz",
+        "document",
+        "project",
+        "caseStudy"
+      ]
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/video-reviews",
+      "handler": "video-reviews.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/video-reviews/count",
+      "handler": "video-reviews.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/video-reviews/:id",
+      "handler": "video-reviews.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/video-reviews",
+      "handler": "video-reviews.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/video-reviews/:id",
+      "handler": "video-reviews.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/video-reviews/:id",
+      "handler": "video-reviews.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

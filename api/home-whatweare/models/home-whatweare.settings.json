@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_whatweares",
+  "info": {
+    "name": "Home_Whatweare"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "whatweare": {
+      "type": "component",
+      "repeatable": true,
+      "component": "whatweare.whatweare"
+    }
+  }
+}

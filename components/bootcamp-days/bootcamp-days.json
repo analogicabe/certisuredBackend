@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_bootcamp_days_bootcamp_days",
+  "info": {
+    "name": "bootcamp_days",
+    "icon": "baby"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "bootcamp_session": {
+      "type": "component",
+      "repeatable": true,
+      "component": "session.bootcamp-session"
+    }
+  }
+}

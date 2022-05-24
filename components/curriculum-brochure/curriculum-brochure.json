@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_curriculum_brochure_curriculum_brochures",
+  "info": {
+    "name": "curriculum_brochure",
+    "icon": "bible",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "default": "Get your Curriculum Copy"
+    },
+    "description": {
+      "type": "text",
+      "default": "Fill in the below details to get personalised brochure"
+    },
+    "brochure_media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "after_submitting_message": {
+      "type": "text",
+      "default": "Email has been sent, you'll recieve in 5min check in the promotions or inbox"
+    },
+    "button_label": {
+      "type": "string",
+      "default": "Download Brochure"
+    },
+    "download_link": {
+      "type": "string",
+      "default": "https://certisured.com"
+    }
+  }
+}

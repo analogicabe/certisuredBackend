@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "conference_user_details",
+  "info": {
+    "name": "conference-user-details"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "payment_intent": {
+      "type": "string"
+    },
+    "title_of_the_paper": {
+      "type": "string"
+    },
+    "name_of_the_authors": {
+      "type": "string"
+    }
+  }
+}

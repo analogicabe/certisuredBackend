@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/training-training-on-emerging-technologies",
+      "handler": "training-training-on-emerging-technologies.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/training-training-on-emerging-technologies/count",
+      "handler": "training-training-on-emerging-technologies.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/training-training-on-emerging-technologies/:id",
+      "handler": "training-training-on-emerging-technologies.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/training-training-on-emerging-technologies",
+      "handler": "training-training-on-emerging-technologies.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/training-training-on-emerging-technologies/:id",
+      "handler": "training-training-on-emerging-technologies.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/training-training-on-emerging-technologies/:id",
+      "handler": "training-training-on-emerging-technologies.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

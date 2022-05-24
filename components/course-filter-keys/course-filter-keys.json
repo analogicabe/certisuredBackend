@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_course_filter_keys_course_filter_keys",
+  "info": {
+    "name": "course_filter_keys",
+    "icon": "band-aid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "course_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "event_date": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "decimal"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "popular_course": {
+      "type": "boolean"
+    },
+    "author": {
+      "model": "author"
+    },
+    "duration_and_mode": {
+      "type": "string"
+    },
+    "logos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "technology-stack-media.technology-stack-media"
+    },
+    "users_count": {
+      "type": "integer"
+    },
+    "free_course": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

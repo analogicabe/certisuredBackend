@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_about_bootcamp_about_bootcamps",
+  "info": {
+    "name": "about_bootcamp",
+    "icon": "atom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "span": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "about_bootcamp_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "about_bootcamp_desc": {
+      "type": "richtext"
+    },
+    "about_bootcamp_event": {
+      "type": "component",
+      "repeatable": true,
+      "component": "title-and-desc.title-and-desc"
+    }
+  }
+}

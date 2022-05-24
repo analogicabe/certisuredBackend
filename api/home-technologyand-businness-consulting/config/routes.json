@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/home-technologyand-businness-consultings",
+      "handler": "home-technologyand-businness-consulting.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/home-technologyand-businness-consultings/count",
+      "handler": "home-technologyand-businness-consulting.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/home-technologyand-businness-consultings/:id",
+      "handler": "home-technologyand-businness-consulting.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/home-technologyand-businness-consultings",
+      "handler": "home-technologyand-businness-consulting.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/home-technologyand-businness-consultings/:id",
+      "handler": "home-technologyand-businness-consulting.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/home-technologyand-businness-consultings/:id",
+      "handler": "home-technologyand-businness-consulting.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ml-webinars",
+      "handler": "ml-webinar.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ml-webinars/count",
+      "handler": "ml-webinar.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ml-webinars/:id",
+      "handler": "ml-webinar.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ml-webinars",
+      "handler": "ml-webinar.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ml-webinars/:id",
+      "handler": "ml-webinar.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ml-webinars/:id",
+      "handler": "ml-webinar.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

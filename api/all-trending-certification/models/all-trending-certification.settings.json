@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "all_trending_certifications",
+  "info": {
+    "name": "Our_Courses_Home",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "main_title": {
+      "type": "string"
+    },
+    "course_description": {
+      "type": "component",
+      "repeatable": true,
+      "component": "course-filter-keys.course-filter-keys"
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "five_k_page": {
+      "via": "our_courses_homes",
+      "model": "five-k-pages"
+    }
+  }
+}

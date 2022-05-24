@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_five_k_departments_types_of_departments",
+  "info": {
+    "name": "types_of_departments",
+    "icon": "bath"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

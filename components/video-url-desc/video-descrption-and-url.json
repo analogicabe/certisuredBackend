@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_video_url_desc_video_descrption_and_urls",
+  "info": {
+    "name": "videoDescrptionAndUrl",
+    "icon": "angle-left"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "Youtube_url": {
+      "type": "string"
+    }
+  }
+}

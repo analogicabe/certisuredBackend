@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/assessment",
+      "handler": "assessment.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/assessment",
+      "handler": "assessment.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/assessment",
+      "handler": "assessment.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

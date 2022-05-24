@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_days_bootcamp_days",
+  "info": {
+    "name": "bootcamp_days",
+    "icon": "bone"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "bootcamp_curriculum_section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "curriculum-section.bootcamp-curriculum-section"
+    }
+  }
+}

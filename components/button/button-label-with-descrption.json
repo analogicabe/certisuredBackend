@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_button_button_label_with_descrptions",
+  "info": {
+    "name": "Button_label_with_descrption",
+    "icon": "bold",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Button_label": {
+      "type": "string",
+      "default": "why discord"
+    },
+    "Button_descrption": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}

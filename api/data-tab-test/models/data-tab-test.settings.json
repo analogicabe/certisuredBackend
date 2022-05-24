@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "data_tab_tests",
+  "info": {
+    "name": "data_tab_test"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "company_name": {
+      "type": "string"
+    },
+    "vat_number": {
+      "type": "string"
+    }
+  }
+}

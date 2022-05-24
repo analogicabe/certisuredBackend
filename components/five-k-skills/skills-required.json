@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_five_k_skills_skills_requireds",
+  "info": {
+    "name": "skills_required",
+    "icon": "calendar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "accordion_content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "accordion.accordion"
+    },
+    "description": {
+      "type": "richtext",
+      "default": "if its required you can add the description after title orelse can move to the accordion part"
+    }
+  }
+}

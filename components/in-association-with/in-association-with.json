@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_in_association_with_in_association_withs",
+  "info": {
+    "name": "In_association_with",
+    "icon": "beer"
+  },
+  "options": {},
+  "attributes": {
+    "logos": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/home-ourworks",
+      "handler": "home-ourwork.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/home-ourworks/count",
+      "handler": "home-ourwork.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/home-ourworks/:id",
+      "handler": "home-ourwork.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/home-ourworks",
+      "handler": "home-ourwork.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/home-ourworks/:id",
+      "handler": "home-ourwork.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/home-ourworks/:id",
+      "handler": "home-ourwork.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_choose_pricing_choose_pricings",
+  "info": {
+    "name": "choose_pricing",
+    "icon": "arrow-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "gst_included": {
+      "type": "string"
+    },
+    "payment_register_link": {
+      "type": "string"
+    },
+    "amount_entry": {
+      "type": "string",
+      "default": "2499 /-"
+    }
+  }
+}

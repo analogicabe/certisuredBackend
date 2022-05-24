@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_five_k_intro_introductions",
+  "info": {
+    "name": "Introduction",
+    "icon": "ban"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

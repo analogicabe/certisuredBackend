@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_core_curriculum_bootcamp_core_curricula",
+  "info": {
+    "name": "bootcamp_core_curriculum",
+    "icon": "battery-empty",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "span": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "curriculum_brochure": {
+      "type": "component",
+      "repeatable": false,
+      "component": "curriculum-brochure.curriculum-brochure"
+    }
+  }
+}

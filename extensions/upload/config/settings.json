@@ -1,0 +1,8 @@
+ {
+    "provider": "cloudinary",
+    "providerOptions": {
+      "cloud_name": "dtoupvd2u",
+      "api_key": "654181181496121",
+      "api_secret": "NMB9d_wX6EDyH1wtLh-_gwck6Fs"
+    }
+ }

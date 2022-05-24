@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_evolutionof_ai_what_is_covered_in_the_free_demo_classes",
+  "info": {
+    "name": "what is covered in the free demo class",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "descrption": {
+      "type": "richtext"
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

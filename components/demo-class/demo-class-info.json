@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_demo_class_demo_class_infos",
+  "info": {
+    "name": "demo_class_info",
+    "icon": "border-none",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desciption": {
+      "type": "richtext"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "course-button.course-button"
+    },
+    "popup_modal_title": {
+      "type": "string"
+    },
+    "popup_modal_short_description": {
+      "type": "text"
+    },
+    "after_submitting_message": {
+      "type": "text"
+    },
+    "make_visible": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_tags",
+  "info": {
+    "name": "blog_tags"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "tag_title": {
+      "type": "string"
+    },
+    "blogs": {
+      "via": "blog_tags",
+      "collection": "blog"
+    }
+  }
+}

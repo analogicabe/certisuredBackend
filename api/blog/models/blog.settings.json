@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs",
+  "info": {
+    "name": "Blog",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Descrption": {
+      "type": "richtext"
+    },
+    "blog_slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "shortDescrption": {
+      "type": "richtext",
+      "default": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et congue metus. Curabitur nec placerat risus, at cursus libero. .."
+    },
+    "blog_tags": {
+      "collection": "blog-tags",
+      "via": "blogs",
+      "dominant": true
+    },
+    "blogs_categories": {
+      "collection": "blogs-category",
+      "via": "blogs",
+      "dominant": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "blog_author": {
+      "via": "blogs",
+      "model": "blog-author"
+    },
+    "audio_file": {
+      "type": "component",
+      "repeatable": false,
+      "component": "audio-file.audio-file"
+    },
+    "published_date": {
+      "type": "string",
+      "default": "June 21"
+    },
+    "Seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "five_k_page": {
+      "via": "blogs",
+      "model": "five-k-pages"
+    }
+  }
+}

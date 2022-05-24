@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_what_students_say_what_students_says",
+  "info": {
+    "name": "whatStudentsSay",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "media_and_descrption": {
+      "type": "component",
+      "repeatable": true,
+      "component": "review-image.review-image"
+    }
+  }
+}

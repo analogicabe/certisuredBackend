@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_summerbanner_summer_school_banners",
+  "info": {
+    "name": "summerSchool_Banner",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "event_date": {
+      "type": "string"
+    },
+    "background_pic": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "banner_top_logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "In_association_with": {
+      "type": "component",
+      "repeatable": true,
+      "component": "in-association-with.in-association-with"
+    }
+  }
+}

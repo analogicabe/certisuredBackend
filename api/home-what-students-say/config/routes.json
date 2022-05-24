@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/home-what-students-says",
+      "handler": "home-what-students-say.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/home-what-students-says/count",
+      "handler": "home-what-students-say.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/home-what-students-says/:id",
+      "handler": "home-what-students-say.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/home-what-students-says",
+      "handler": "home-what-students-say.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/home-what-students-says/:id",
+      "handler": "home-what-students-say.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/home-what-students-says/:id",
+      "handler": "home-what-students-say.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

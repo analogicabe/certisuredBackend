@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_authors",
+  "info": {
+    "name": "Blog_author",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name_and_surname": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "short_description": {
+      "type": "string"
+    },
+    "linkedin_url": {
+      "type": "string"
+    },
+    "twitter_url": {
+      "type": "string"
+    },
+    "blogs": {
+      "via": "blog_author",
+      "collection": "blog"
+    },
+    "designation": {
+      "type": "string",
+      "default": "Designation"
+    }
+  }
+}

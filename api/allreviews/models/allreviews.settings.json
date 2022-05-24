@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "allreviews",
+  "info": {
+    "name": "Allreviews",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "allreview": {
+      "type": "component",
+      "repeatable": true,
+      "component": "allreview.allreiview"
+    },
+    "course": {
+      "type": "string"
+    },
+    "demo_classes": {
+      "via": "allreview",
+      "collection": "ml-demo-class"
+    },
+    "five_k_page": {
+      "via": "allreviews",
+      "model": "five-k-pages"
+    }
+  }
+}

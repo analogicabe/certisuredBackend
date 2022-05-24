@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_summer_subject_choose_your_subjects",
+  "info": {
+    "name": "choose_your_subject",
+    "icon": "asterisk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ml-demo-classes",
+      "handler": "ml-demo-class.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ml-demo-classes/count",
+      "handler": "ml-demo-class.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ml-demo-classes/:id",
+      "handler": "ml-demo-class.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ml-demo-classes",
+      "handler": "ml-demo-class.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ml-demo-classes/:id",
+      "handler": "ml-demo-class.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ml-demo-classes/:id",
+      "handler": "ml-demo-class.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

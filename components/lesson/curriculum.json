@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_lesson_curricula",
+  "info": {
+    "name": "curriculum",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtopic": {
+      "type": "component",
+      "repeatable": true,
+      "component": "lesson.subtopic"
+    }
+  }
+}

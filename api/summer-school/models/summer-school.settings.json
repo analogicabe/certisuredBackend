@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "summer_schools",
+  "info": {
+    "name": "summerSchool",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "summerSchool_Banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "summerbanner.summer-school-banner"
+    },
+    "SummerSchool_Welcome_video": {
+      "type": "component",
+      "repeatable": false,
+      "component": "welcome-video.summer-school-welcome-video"
+    },
+    "SummerSchool_subjects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "subjects.summer-school-subjects"
+    },
+    "pricing_and_payment": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pricing.pricing-and-payment"
+    },
+    "terms_and_conditions": {
+      "type": "richtext"
+    },
+    "allreviews": {
+      "model": "allreviews"
+    },
+    "facebook_link": {
+      "type": "string"
+    },
+    "discord_link": {
+      "type": "string"
+    },
+    "linkedin_link": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "video_feedback": {
+      "type": "component",
+      "repeatable": false,
+      "component": "review-video.reviews"
+    },
+    "sample_videos": {
+      "type": "component",
+      "repeatable": false,
+      "component": "review-video.reviews"
+    },
+    "brouchre_download_link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "course-button.course-button"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    }
+  }
+}

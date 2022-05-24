@@ -1,0 +1,90 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bootcamp_pages",
+  "info": {
+    "name": "landing_pages",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "bootcamp_banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "bootcamp-banner.bootcamp-banner"
+    },
+    "bootcamp_highlights": {
+      "type": "component",
+      "repeatable": false,
+      "component": "highlights.bootcamp-highlights"
+    },
+    "tools_covered": {
+      "type": "component",
+      "repeatable": false,
+      "component": "technolog-stack.technolog-stack"
+    },
+    "about_bootcamp": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-bootcamp.about-bootcamp"
+    },
+    "why_discord": {
+      "type": "component",
+      "repeatable": false,
+      "component": "why-discord.why-discord"
+    },
+    "bootcamp_core_curriculum": {
+      "type": "component",
+      "repeatable": false,
+      "component": "core-curriculum.bootcamp-core-curriculum"
+    },
+    "bootcamp_days": {
+      "type": "component",
+      "repeatable": true,
+      "component": "bootcamp-days.bootcamp-days"
+    },
+    "bootcamp_about_instructor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-instructor.bootcamp-about-instructor"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "video_review": {
+      "model": "video-reviews"
+    },
+    "bootcamp_frequently_asked_question": {
+      "type": "component",
+      "repeatable": false,
+      "component": "frequently-asked.bootcamp-frequently-asked-question"
+    },
+    "pricing_lists": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing-lists.pricing-lists"
+    },
+    "allreviews": {
+      "model": "allreviews",
+      "collection": "allreviews"
+    },
+    "demo_class_info": {
+      "type": "component",
+      "repeatable": false,
+      "component": "demo-class.demo-class-info"
+    },
+    "bootcamp_pricing": {
+      "type": "component",
+      "repeatable": false,
+      "component": "bootcamp-pricing.bootcamp-pricing"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    }
+  }
+}

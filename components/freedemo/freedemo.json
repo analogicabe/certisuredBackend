@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_freedemo_freedemos",
+  "info": {
+    "name": "freedemo",
+    "icon": "bicycle"
+  },
+  "options": {},
+  "attributes": {
+    "business_category": {
+      "type": "enumeration",
+      "enum": [
+        "free",
+        "demo"
+      ]
+    },
+    "courses_lms": {
+      "collection": "free-courses-lms"
+    }
+  }
+}

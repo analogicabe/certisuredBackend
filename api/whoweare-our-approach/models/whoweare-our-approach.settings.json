@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "whoweare_our_approaches",
+  "info": {
+    "name": "Whoweare_ourApproach"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "shortDescrption": {
+      "type": "richtext"
+    },
+    "ourApproach_media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

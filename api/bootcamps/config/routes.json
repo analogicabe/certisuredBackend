@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/bootcamps",
+      "handler": "bootcamps.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bootcamps/count",
+      "handler": "bootcamps.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bootcamps/:id",
+      "handler": "bootcamps.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/bootcamps",
+      "handler": "bootcamps.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/bootcamps/:id",
+      "handler": "bootcamps.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/bootcamps/:id",
+      "handler": "bootcamps.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

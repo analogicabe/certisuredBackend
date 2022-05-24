@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_course_filter_course_filters",
+  "info": {
+    "name": "course_filter",
+    "icon": "caret-square-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "main_title": {
+      "type": "string"
+    }
+  }
+}

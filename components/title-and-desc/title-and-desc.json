@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_title_and_desc_title_and_descs",
+  "info": {
+    "name": "titleAndDesc",
+    "icon": "angle-down"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "descrption": {
+      "type": "richtext"
+    }
+  }
+}

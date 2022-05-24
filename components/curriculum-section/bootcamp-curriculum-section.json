@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_curriculum_section_bootcamp_curriculum_sections",
+  "info": {
+    "name": "bootcamp_curriculum_section",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "session": {
+      "type": "richtext"
+    }
+  }
+}

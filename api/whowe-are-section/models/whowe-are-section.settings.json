@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "whowe_are_sections",
+  "info": {
+    "name": "WhoweAre_Section"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "descrption": {
+      "type": "string"
+    },
+    "Section_media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

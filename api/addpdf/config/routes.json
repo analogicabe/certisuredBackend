@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/addpdfs",
+      "handler": "addpdf.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/addpdfs/count",
+      "handler": "addpdf.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/addpdfs/:id",
+      "handler": "addpdf.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/addpdfs",
+      "handler": "addpdf.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/addpdfs/:id",
+      "handler": "addpdf.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/addpdfs/:id",
+      "handler": "addpdf.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/five-k-pages",
+      "handler": "five-k-pages.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/five-k-pages/count",
+      "handler": "five-k-pages.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/five-k-pages/:id",
+      "handler": "five-k-pages.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/five-k-pages",
+      "handler": "five-k-pages.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/five-k-pages/:id",
+      "handler": "five-k-pages.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/five-k-pages/:id",
+      "handler": "five-k-pages.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

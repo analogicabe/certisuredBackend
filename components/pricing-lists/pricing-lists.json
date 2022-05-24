@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_pricing_lists_pricing_lists",
+  "info": {
+    "name": "pricing_lists",
+    "icon": "calendar-check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "short_desc": {
+      "type": "text"
+    },
+    "stripe_price_id": {
+      "type": "component",
+      "repeatable": false,
+      "component": "course-button.course-button"
+    },
+    "background_color_code": {
+      "type": "string"
+    },
+    "starts_at": {
+      "type": "string"
+    },
+    "everything_in_standard_plus": {
+      "type": "string"
+    },
+    "points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "points.points-included"
+    },
+    "currency_icon": {
+      "type": "string",
+      "default": "₹"
+    },
+    "show_or_hide": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

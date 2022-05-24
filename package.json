@@ -1,0 +1,43 @@
+{
+  "name": "strapi-atlas",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "graphql": "^15.5.0",
+    "instamojo-nodejs": "^0.0.5",
+    "razorpay": "^2.8.0",
+    "strapi": "3.6.8",
+    "strapi-admin": "3.6.8",
+    "strapi-connector-mongoose": "3.6.8",
+    "strapi-plugin-content-manager": "3.6.8",
+    "strapi-plugin-content-type-builder": "3.6.8",
+    "strapi-plugin-email": "3.6.8",
+    "strapi-plugin-graphql": "3.6.8",
+    "strapi-plugin-import-export-content": "^0.4.2",
+    "strapi-plugin-upload": "3.6.8",
+    "strapi-plugin-users-permissions": "3.6.8",
+    "strapi-provider-email-mailgun": "^3.6.5",
+    "strapi-provider-email-nodemailer": "^3.6.8",
+    "strapi-provider-email-sendgrid": "^3.6.5",
+    "strapi-provider-email-sendinblue": "^1.0.6",
+    "strapi-provider-upload-cloudinary": "^3.6.8",
+    "strapi-utils": "3.6.8",
+    "stripe": "^8.184.0",
+    "yarn": "^1.22.11"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "4d678acb-7ceb-46f0-b624-dfa05f9175a8"
+  },
+  "license": "MIT"
+}

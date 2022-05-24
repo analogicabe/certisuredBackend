@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_trainings",
+  "info": {
+    "name": "Home_Training",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "longDescrption": {
+      "type": "richtext"
+    },
+    "Training_media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "shortDescrption": {
+      "type": "richtext"
+    }
+  }
+}

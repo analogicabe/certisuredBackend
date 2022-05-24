@@ -1,0 +1,96 @@
+{
+  "kind": "collectionType",
+  "collectionName": "courses",
+  "info": {
+    "name": "paid-course-lms",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "overview": {
+      "type": "richtext"
+    },
+    "curriculum": {
+      "type": "component",
+      "repeatable": true,
+      "component": "lesson.curriculum"
+    },
+    "course_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "slug": {
+      "type": "string"
+    },
+    "banner_img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "short_descrption": {
+      "type": "richtext"
+    },
+    "authors": {
+      "collection": "author",
+      "via": "course"
+    },
+    "rating": {
+      "type": "decimal"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "course-button.course-button"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "orders": {
+      "via": "courses",
+      "collection": "order"
+    },
+    "courses_demos": {
+      "via": "course",
+      "collection": "course-demo-list"
+    },
+    "announcements": {
+      "type": "richtext"
+    },
+    "users": {
+      "plugin": "users-permissions",
+      "collection": "user",
+      "via": "paid_course_lms",
+      "dominant": true
+    },
+    "modules": {
+      "type": "component",
+      "repeatable": true,
+      "component": "course-modules.course-modules"
+    }
+  }
+}

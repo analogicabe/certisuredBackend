@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_lesson_subtopics",
+  "info": {
+    "name": "subtopic",
+    "icon": "arrow-alt-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subTopic": {
+      "type": "string",
+      "required": false
+    },
+    "vimeo_url": {
+      "type": "string"
+    }
+  }
+}

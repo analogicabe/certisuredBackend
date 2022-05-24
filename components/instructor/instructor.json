@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_instructor_instructors",
+  "info": {
+    "name": "instructor",
+    "icon": "basketball-ball"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "linkedin_url": {
+      "type": "string"
+    }
+  }
+}

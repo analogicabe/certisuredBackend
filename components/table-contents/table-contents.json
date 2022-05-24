@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_table_contents_table_contents",
+  "info": {
+    "name": "table_contents",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "table_content": {
+      "type": "string"
+    },
+    "add_audio": {
+      "type": "component",
+      "repeatable": true,
+      "component": "audio-file.audio-file"
+    },
+    "main_title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_reviews_reviews",
+  "info": {
+    "name": "review_video",
+    "icon": "bacon",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "review_video_title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "title.title"
+    },
+    "video_reviews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "video-url-desc.video-descrption-and-url"
+    },
+    "show_on_website": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}

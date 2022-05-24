@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "consulting_main_pages",
+  "info": {
+    "name": "Consulting_mainPage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "consulting_mainpage": {
+      "type": "component",
+      "repeatable": true,
+      "component": "consulting.consulting-mainpage"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

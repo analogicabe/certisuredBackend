@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_skills_user_skills",
+  "info": {
+    "name": "user_skills",
+    "icon": "balance-scale-left"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "percentage": {
+      "type": "string"
+    }
+  }
+}
